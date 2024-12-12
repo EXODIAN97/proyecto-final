@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Inicio de Sesión</title>
+        <link rel="stylesheet" href="LOGIN CSS.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    
+<body>
+
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form action="login.html" method="POST">
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Usuario" name="username" required>
+            </div>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Contraseña" name="password" required>
+            </div>
+            <div style="margin: 10px 0;">
+                <input type="checkbox" id="no-robot" name="no-robot" required>
+                <label for="no-robot">No soy un robot</label>
+            </div>
+            <input type="submit" value="Ingresar">
+        </form>
+        
+    </div>
+
+</body>
+</html>
